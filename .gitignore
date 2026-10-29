@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.tmp/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+.codex/
+.claude/
+*.log
+*.tsbuildinfo

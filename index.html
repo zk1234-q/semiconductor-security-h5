@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#060b16" />
+    <meta name="description" content="半导体信息安全互动体验：泄密倒计时，最后一次授权。" />
+    <title>泄密倒计时：最后一次授权</title>
+    <style>
+      html { background: #060b16; color: #eef7ff; font-family: "Microsoft YaHei", sans-serif; }
+      .entry-loading { max-width: 560px; margin: 18vh auto; padding: 28px; line-height: 1.8; }
+      .entry-loading a { color: #53dcd2; }
+    </style>
+    <script data-file-launcher>
+      if (location.protocol === "file:") {
+        location.replace(new URL("./dist/index.html", location.href).href);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="entry-loading">
+        <h1>泄密倒计时：最后一次授权</h1>
+        <p>正在加载互动体验……</p>
+        <p>直接打开时，请使用<a href="./dist/index.html">离线演示入口</a>；开发调试请运行 npm run dev。</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
